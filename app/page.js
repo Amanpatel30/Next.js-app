@@ -12,6 +12,9 @@ export default function Home() {
     <p>
     <Link href={"/blog"}>Blog</Link>
 
+    </p><p>
+    <Link href={"/about"}>about</Link>
+
     </p>
     </>
   );

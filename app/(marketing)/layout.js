@@ -8,12 +8,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   // console.log(children)
   return (
-    <html lang="en">
-      <body>
-      
+<>
+
+        <h1 style={{background:"orange"}}>Header</h1>
         {children}
-       
-      </body>
-    </html>
+        <h1 style={{background:"green"}}>Footer</h1>
+</>
   );
 }
